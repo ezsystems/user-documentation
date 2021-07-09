@@ -13,6 +13,10 @@ If your [user role](../site_organization/organizing_the_site.md#permissions) inc
 the `Personalization/Edit` Policy, you can modify the models according to your requirements.
 To do this, navigate to the **Models** tab and click the **Edit** icon next to a name of the model.
 
+You may have permissions to access several websites hosted on an [[= product_name =]], 
+[with independent results returned for each of these websites](use_cases.md#hosting-multiple-websites).
+If this is the case, use the selector field to switch between views for each of these sites.
+
 ## Model types
 
 There are several types of models available, however, the distinction between types is not visible in the user interface.
@@ -56,7 +60,7 @@ This model can recommend other products that fit the one that the user
 is currently looking at. 
 
 For example, when a user navigates to a product page with a certain smartphone, 
-apart from the "Also clicked" recommendations, the personalization service could 
+apart from the "Also clicked" recommendations, the Personalization service could 
 recommend the *Smartphone + Cover + Headphones* bundle, because they were purchased 
 together in exactly this combination several times.
 

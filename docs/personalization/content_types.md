@@ -1,6 +1,6 @@
 # Content types
 
-With the personalization service, you can build different recommendation domains. 
+With the Personalization service, you can build different recommendation domains. 
 You do this by splitting all the products into different content types. 
 There are several possible use cases for content types, for example:
 
@@ -24,7 +24,7 @@ popular videos and/or popular articles.
 
 Here is a comparison of different approaches that you can take when defining content types:
 
-|Use case|Content types solution (domain context)|Attribute based sub-models (group context)|Different personalization service accounts|
+|Use case|Content types solution (domain context)|Attribute based sub-models (group context)|Different Personalization service accounts|
 |---|---|---|---|
 |Cross-group recommendation requests are possible|yes|yes|no|
 |Products must belong to one group|mandatory|optional|mandatory|

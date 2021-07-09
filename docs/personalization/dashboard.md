@@ -1,16 +1,22 @@
 # Reviewing performance
 
-You can review statistical information related to the functioning of the personalization service, 
+You can review statistical information related to the functioning of the Personalization service, 
 to help you fine-tune [models](recommendation_models.md) and [scenarios](scenarios.md) and, 
 in consequence, achieve better financial results.
 You can do this by visiting the dashboard, where you can monitor the performance 
-of the personalization service.
+of the Personalization service.
 
 The dashboard consists of several sections:
 
 - The top section contains tiles with the most important metrics, such as a number of recommendation calls, number of successful recommendations and so on.
-- The diagrams section presents statistical information on how the personalization service is used and how successful recommendations are, depending on key performance indicators.
+- The diagrams section presents statistical information on how the Personalization service is used and how successful recommendations are, depending on key performance indicators.
 - The bottom section is made up of tables with detailed information, such as the most popular items.
+
+!!! note "Hosting multiple websites"
+
+    If you have [permissions](../site_organization/organizing_the_site.md#permissions) to access several websites hosted on an [[= product_name =]] 
+    instance, you can use the selector field to switch between dashboards for 
+    each of these sites.
 
 ## Statistical information
 
@@ -23,7 +29,7 @@ The diagram part consists of four main blocks:
 - Conversion rate:
     The absolute number of converted/sold recommendations.
 - Collected events:
-    Input data CLICK, BUY, and other events) that the personalization service collects 
+    Input data CLICK, BUY, and other events) that the Personalization service collects 
     from the website. 
     For more information, see [Event types](event_types.md).
 

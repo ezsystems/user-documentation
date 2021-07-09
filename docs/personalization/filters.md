@@ -19,7 +19,7 @@ User profile-based filters are applicable in both publishing and eCommerce use c
 |Filter|Requirements and restrictions|
 |---|---|
 |Do not recommend the item currently viewed|When you activate this filter, it removes the context items from the recommendation list. You might not want to use this filter if your strategy is based on the ["Bundle" and "Ultimately bought" models](recommendation_models.md#ultimately-bought).|
-|Do not recommend items the user already consumed|The personalization service stores the CONSUME events of every user for one year. When you activate this filter, the user will not be recommended the consumed content again.|
+|Do not recommend items the user already consumed|The Personalization service stores the CONSUME events of every user for one year. When you activate this filter, the user will not be recommended the consumed content again.|
 |Max. repeated shows of identical recommendations per session|When you activate this filter and set a value, after a content item/product is recommended a certain number of times during the current user session, it is removed from all recommendation lists.|
 
 #### Boost filters
@@ -37,7 +37,7 @@ You can configure the boost filter to promote recommendations for certain users:
 
 ![Boost filter example](img/boost_example.png "Boost filter example")
 
-Item boosting requires that the personalization service is fed with both item 
+Item boosting requires that the Personalization service is fed with both item 
 and user attribute data.
 For more information about importing data, see [Importing data](content_import.md).
 
@@ -48,8 +48,8 @@ The following filters are only applicable in eCommerce use cases.
 |Filter|Requirements and restrictions|
 |---|---|
 |No top-selling items|When you activate this filter, items that come from the top selling model (even if the model itself is not linked to this scenario) are not placed on the recommendations list. This way you can stop promoting products that are already popular. If you apply this filter to a top selling scenario as it will filter out all recommendations.|
-|Item price should be equal or higher than the price of the context product|You can use this filter to filter out items that could be more attractive to the user from the recommendation list. It compares prices exported to the personalization service with metadata of the currently viewed product.|
-|Minimum price of the recommended product|You can use this filter to remove cheap and popular items from the recommendation list. For example, as an optometrist you might prefer showing the most popular designer frames on the home page and avoid promoting insurance subsidized cheap models or cleaning cloths. Again, this filter relies on product metadata and uses prices exported to the personalization service.|
+|Item price should be equal or higher than the price of the context product|You can use this filter to filter out items that could be more attractive to the user from the recommendation list. It compares prices exported to the Personalization service with metadata of the currently viewed product.|
+|Minimum price of the recommended product|You can use this filter to remove cheap and popular items from the recommendation list. For example, as an optometrist you might prefer showing the most popular designer frames on the home page and avoid promoting insurance subsidized cheap models or cleaning cloths. Again, this filter relies on product metadata and uses prices exported to the Personalization service.|
 |Do not recommend if price unknown|If a product's price is not available then it will not be recommended.|
 |Do not recommend items the user already purchased|When you activate this filter, the user will not be recommended the purchased products again.|
 
@@ -74,7 +74,7 @@ There are two ways to specify a category path in a recommendation request:
   This approach is recommended only if it is technically impossible (or too complex) 
   to provide the category information explicitly.
 
-Depending on how you configure the filters, the personalization service can take 
+Depending on how you configure the filters, the Personalization service can take 
 different paths to find the actual set of categories to recommend the items/products from.
 
 The following example shows the category structure (which basically corresponds to site navigation):
@@ -116,7 +116,7 @@ For example, in a shop that sells furniture and plants,
 products can be structured based on site navigation. 
 Typically, customers would look for computer desks and get a list of recommendations 
 of all computer desks in the shop. 
-When necessary, the personalization service can also use another dimension 
+When necessary, the Personalization service can also use another dimension 
 for filtering recommendations, for example, a "brand" dimension. 
 In this case, users would get recommendations for all items from the same "brand".
 
@@ -139,6 +139,6 @@ The only exception could be coping with copyright or legal issues by removing
 unlicensed or adult content in certain markets or for certain customers. 
 However, this use case could be handled with equal or greater success by using [submodels](recommendation_models.md#submodels) or [item types](content_types.md).
 
-To support category filtering, the personalization service must be fed with both 
+To support category filtering, the Personalization service must be fed with both 
 content and user attribute data.
 For more information about importing data, see [Importing data](content_import.md).

@@ -1,6 +1,6 @@
 # Integrating scenario results
 
-When the personalization service is [enabled](enabling_personalization.md) and properly 
+When the Personalization service is [enabled](enabling_personalization.md) and properly 
 [configured](perso_configuration.md), as an editor, you can embed the recommendations 
 that come from the service, to show them to the end users.
 You can, for example, modify a Page to include a block that shows what 
@@ -28,7 +28,7 @@ icon next to the site in which you want to place a personalization block.
         
     1. On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
     
-      The preview of the Page changes to display a list of products recommended by the personalization service.
+      The preview of the Page changes to display a list of products recommended by the Personalization service.
  
 1. Save your changes to the draft or publish the Page.
 

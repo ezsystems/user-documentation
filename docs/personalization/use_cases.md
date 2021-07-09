@@ -5,7 +5,7 @@ The most common ones are eCommerce and content publishing.
 
 ## eCommerce
 
-In eCommerce, recommendations can help customers find the exact product that fulfills their expectations. 
+In eCommerce, recommendations can help customers find the exact product that fulfils their expectations. 
 When a user is not sure about what to purchase, recommendations can suggest similar, alternative 
 or complementary products. 
 Some typical use cases are:
@@ -23,7 +23,7 @@ Scenarios are configurations that define what kind of recommendations should be 
 
 ![Related products on a shopping cart page](img/use_case_shopping_basket.png "Related products on a shopping cart page")
 
-### Content publishing
+## Content publishing
 
 In publishing, recommendations bring indirect value by keeping users on the website. 
 Unlike in eCommerce, publishers often provide content for free and are financed from advertisements. 
@@ -36,3 +36,18 @@ Use cases in publishing can be the following:
 - Related content shown on the content detail page
 
 ![Similar products on a product detail page](img/use_case_detail_page.png "Similar products on a product detail page")
+
+## Hosting multiple websites
+
+If your [[= product_name =]] instance hosts multiple websites, you can configure 
+the Personalization service to provide independent recommendations for each 
+of these sites.
+This can eliminate irrelevant recommendations when there are:
+
+- Multiple websites that belong to different customers
+- Both eCommerce and content publishing websites
+- Multiple localized versions of the same digital presence
+- Several eCommerce websites operating under different brands
+
+To get independent results for different websites, you must [set up](enabling_personalization.md) 
+and [configure](perso_configuration.md) the service separately for each of these sites.

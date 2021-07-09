@@ -1,9 +1,17 @@
 # Configuring personalization
 
-In the Back Office, you can you can review the settings that control the personalization service.
-If your [user role](../site_organization/organizing_the_site.md#permissions) includes 
-the `Personalization/Edit` Policy, you can modify the settings according to your requirements.
+In the Back Office, you can you can review the configuration that controls 
+the Personalization service.
+If your [user role](../site_organization/organizing_the_site.md#permissions) has 
+the `Personalization/Edit` permission that includes your website, you can modify 
+the settings according to your requirements.
 To do this, navigate to one of the pages mentioned below and edit the item that you want to modify.
+
+!!! note "Hosting multiple websites"
+
+    If you have permissions to access several websites hosted on an [[= product_name =]] 
+    instance, you can use the selector field to switch between views for each 
+    of these sites.
 
 ## Models
 
